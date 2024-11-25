@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+
+.grid{
+  background-color: #cccccc;
+  padding: 1rem;
+  display:flex;
+  flex-direction: row;
+  gap:24px;
+}
+
+/* CSS grids column widths */
+.grid-col-third {
+flex-basis: 33.33%;
+}
+.grid-col-twoThirds {
+flex-basis: 66.66%;
+}
+
+<div class="container grid">
+<div class="grid-col-third">
+<nav>
+<h2>Contents</h2>
+<ul>
+<li><a href="#Elizabeth">Elizabeth Friedländer</a></li>
+<li><a href="#Paula">Paula Scher</a></li>
+<li><a href="#Jessica">Jessica Hische</a></li>
+<li><a href="#further_reading">Further reading</a></li>
+</ul>
+</nav>
+</div>
+
+<div class=".grid-col-twoThirds">
+<h2 id="further_reading">Further reading</h2>
+<ul>
+<li><a href=“https://www.itsnicethat.com/features/elizabethfriedlander-graphicdesign-
+internationalwomensday-080318">Friedlander: one of the first women to design a typeface</a></li>
+<li><a href="https://www.itsnicethat.com/features/paula-scher-graphic-design-151117">One Step Ahead: we
+meet Paula Scher, the trailblazing Pentagram Partner</a></li>
+<li><a href="https://www.madamearchitect.org/interviews/2020/7/16/paula-scher">A Life in Her Work:
+Pentagram's Paula Scher on Ideas, Invention, and Learning</a></li>
+<li><a href="https://jessicahische.is/awesome">Jessica Hische, the portfolio and random thoughts of a
+crazy cat lady.</a></li>
+<li><a href=“https://creativecloud.adobe.com/discover/article/q-and-a-artist-jessica-hische">Adobe
+Q&amp;A: Artist Jessica Hische</a></li>
+</ul>
+</div>
+</div>
+</main
+
+P{
+margin: 0;
+padding: 1rem;
+border:2px solid #000000;
+background-color: #ffcccc
+}
+
+p {
+margin:0;
+padding: 1rem;
+border:2px solid #000000;
+background-color: #ffcccc;
+}
+@media only screen and (max-width:620px) {
+p {
+color:#ffffff;
+background-color: #425262;
+}
+}
+
+P.third{
+    flex-basis: 33.33%;
+}
+p.col-twoThirds {
+flex-basis: 66.66%
+}
+
+     </style>
+</head>
+<body>
+    <div class=“grid”>
+<p class="col-third">Item one</p>
+<p class="col-twoThirds">Item two</p>
+    </div>
+</body>
+</html>
